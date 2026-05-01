@@ -1,0 +1,17 @@
+{
+  "name": "substack-draft-mcp",
+  "version": "0.1.0",
+  "description": "A small safety-first MCP server for reading Substack posts and creating/updating drafts.",
+  "type": "module",
+  "bin": {
+    "substack-draft-mcp": "./src/server.mjs"
+  },
+  "scripts": {
+    "start": "node ./src/server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
